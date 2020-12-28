@@ -1,0 +1,121 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+body{
+
+}
+.wrapper{
+margin-left: 90px;
+}
+.list{
+
+
+}
+.list__li li {
+line-height: 36px;
+font-size: 20px;
+font-family: "Arial MT";
+color: #273d46;
+}
+.list__li li::before{
+  content: "";
+   width: 25px;
+   height: 19px;
+  background: url(img/icon.png)left no-repeat;
+  display: inline-block;
+  margin-right: 15px;
+}
+.list__li li:first-child{
+text-decoration: line-through;
+
+}
+.list__li li:nth-child(2){
+  font-weight: bold;
+}
+.list__li li:nth-child(3){
+font-style: oblique;
+}
+.list__li li:last-child{
+text-transform: uppercase;
+}
+.list__header{
+  margin-top: 123px;
+color: #000000;
+font-family: "Arial MT";
+line-height: 40px;
+text-transform: uppercase;
+letter-spacing: 2.8px;
+}
+.list__li_hover{
+  margin-top: 80px;
+}
+.list__li_hover li:hover{
+  color: #d55a5a;
+}
+.list__li_hover li:hover:before{
+  content: "";
+   width: 25px;
+   height: 19px;
+  background: url(img/check_icon.png)left no-repeat;
+  display: inline-block;
+
+}
+.links{
+  margin: 137px 0px 0px 118px;
+
+}
+.link{
+ margin-left: 96px;
+  height: 44px;
+  padding: 0px 33px;
+  line-height: 44px;
+  background-color: #80b7b3;
+  border-radius:22px;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  background-image:url(img\arrow.png)right no-repeat;
+}
+.link:hover{
+  background-color: #3a5856;
+}
+.link:active{
+  background-color: #818181;
+}
+.link span{
+padding-right: 30px;
+width: 21px;
+height: 14px;
+background-image:url(img\arrow.png)right no-repeat;
+}
+.text{
+max-width: 761px;
+margin: 0px auto;
+}
+.text p{
+color: #000000;
+font-family: "Arial MT";
+font-size: 18px;
+line-height: 28px;
+}
+.text p:first-child:first-line{
+  color: #ff0000;
+
+}
+.text p:last-child:first-letter{
+  color: #ff0000;
+}
